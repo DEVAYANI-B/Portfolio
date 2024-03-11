@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        .portfolio-item {
+            margin-bottom: 5px;
+            color:black;
+        }
+
+        .portfolio-education,
+        .portfolio-educate,
+        .portfolio-college {
+            width: 200px;
+            height: 200px;
+            background-color: yellow; 
+            border: 1px solid black;
+            border-radius: 10px; 
+            margin: 20px; 
+            padding: 20px; 
+            color:black; 
+            text-align: center;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 3px;
+            row-gap: 3px;
+            align-items: end;
+            justify-content: center;
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        .sticky {
+            position: -webkit-sticky;
+            width: 100%;
+            height: 20px;
+            background-color: black;
+            top: 10px;
+            position: sticky;
+            z-index: 1;
+        }
+
+        .centre {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+            border-radius: 25%;
+            height: 200px;
+        }
+
+        .background {
+            background-color: rgb(229, 229, 239);
+        }
+
+        .project2 {
+            color: black;
+        }
+
+        .image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%; /* Adjust the width as needed */
+            max-width: 800px; /* Limit the maximum width if desired */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Adjust the size of the LinkedIn and Instagram icons */
+        .portfolio-item img {
+            width: 20px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <h1>Hi I'am DEVAYANI B</h1>
+            <p>I'm a Web Developer</p>
+        </div>
+        <div class="sticky"></div>
+        <div>
+            <img src="my.jpg" class="centre">
+        </div>
+
+        <div class="container main-content">
+            <div>
+                <h2>About Me</h2>
+                <p>I embody a meticulous and analytical approach to problem solving, coupled with deep commitment to precision and quality. My methodical mindset allows me to navigate complex technical challenges with strategic clarity.</p>
+            </div>
+            <div>
+                <h3>Skills</h3>
+                <span>Skills: HTML, CSS, C, PYTHON, DATA STRUCTURE USING C, OOPS using JAVA</span>
+                <div>
+                    <a href="https://drive.google.com/file/d/1m7PA2_kgQPn8e8NEwTXMQiURukkISfPm/view?usp=drivesdk" target="_blank">JAVA CERTIFICATE</a>
+                    <div>
+                        <a href="https://drive.google.com/file/d/1mBNYTuRmLPS07PIvGKP3Ugf4kLvHtmuE/view?usp=drivesdk" target="_blank">DS CERTIFICATE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <h2>Contact me</h2>
+                <li><a href="https://www.linkedin.com/in/devayani-b-10042b258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg" alt="LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/devayaaaniiii?igsh=MW5jcGsyN2pya2c3Nw==" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a></li>
+            </div>
+            
+            <h2>EDUCATION</h2>
+            <div class="flex">
+                <div class="portfolio-education">
+                    <h3>SSLC</h3>
+                    <p>MOUNT ZION INTERNATIONAL SCHOOL CBSE</p>
+                    <p>PERCENTAGE:93.6%</p>
+                </div>
+                <div class="portfolio-educate">
+                    <h3>HSC</h3>
+                    <p>MOUNT ZION INTERNATIONAL SCHOOL CBSE</p>
+                    <p>PERCENTAGE:89.4%</p>
+                </div>
+                <div class="portfolio-college">
+                    <h3>Bachelor's Degree</h3>
+                    <p>Sri Eshwar College of Engineering</p>
+                    <p>Cgpa:8.2</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item-img">
+                <h2>MY PROJECTS</h2>
+                <h3>Project 1</h3>
+                <img src="port projects.jpg" alt="Project 1 Image" class="image">
+                <p>A Student Attendance Management System using MongoDB and JavaFX offers a streamlined solution for tracking student attendance. MongoDB ensures efficient storage and retrieval of attendance records, while JavaFX provides a user-friendly interface for easy interaction. This system simplifies attendance monitoring and administrative tasks for educational institutions.</p>
+                <a href="#">Move Up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
